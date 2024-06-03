@@ -70,6 +70,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-.secondary-color {
-  color: #61908e;
-}
+
+/* html {
+  height: 38rem;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    180deg,
+    #fee694 0%,
+    rgba(254, 230, 148, 0) 100%
+  );
+} */
