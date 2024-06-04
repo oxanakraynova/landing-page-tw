@@ -20,35 +20,28 @@ function ProductCard({ product }: ProductCardProps) {
     }
   };
   return (
-    <>
-      <div className="max-w-sm bg-custom-gradient h-fit rounded-lg shadow">
-        <div className="relative">
-          <a href="#">
-            <img className="rounded-t-lg" src={imageSrc} alt="Product image" />
-          </a>
-          <div className="absolute top-8 right-8 text-white">
-            <span className="font-bold">{product.rating.rate}/5</span>
-          </div>
-        </div>
-        <div className="p-8 flex flex-col items-start">
-          <a href="#">
-            <h5 className="pb-8 text-left text-2xl font-bold tracking-tight text-primary ">
-              {truncateString(product.title, 60)}
-            </h5>
-          </a>
-          <p className="mb-3 text-left font-normal text-primary">
-            {truncateString(product.description, 142)}
-          </p>
-          <a
-            href="#"
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-success rounded-lg hover:bg-lime-600 focus:ring-4 focus:outline-none"
-            onClick={handleClick}
-          >
-            Detail produktu
-          </a>
+    <div className="max-w-sm h-full bg-custom-gradient rounded-lg shadow">
+      <div className="relative">
+        <img className="rounded-t-lg" src={imageSrc} alt="Product image" />
+        <div className="absolute top-8 right-8 text-white">
+          <span className="font-bold">{product.rating.rate}/5</span>
         </div>
       </div>
-    </>
+      <div className="p-8 flex flex-col items-start">
+        <h5 className="pb-8 text-left text-3xl font-bold tracking-tight text-secondary ">
+          {truncateString(product.title, 60)}
+        </h5>
+        <p className="mb-12 text-left text-base font-medium text-secondary">
+          {truncateString(product.description, 142)}
+        </p>
+        <button
+          className="inline-flex items-center text-sm font-medium text-center text-white bg-success rounded-lg hover:bg-lime-600 focus:ring-4 focus:outline-none"
+          onClick={handleClick}
+        >
+          Detail produktu
+        </button>
+      </div>
+    </div>
   );
 }
 

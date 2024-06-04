@@ -9,7 +9,7 @@ function CustomTab({ onChange, sortingOption }: CustomTabProps) {
   };
   return (
     <>
-      <div className="flex flex-wrap text-sm font-medium text-center text-secondary mb-30 lg:mt-30 md:mt-15 sm:mt-12">
+      <div className="flex flex-wrap text-sm font-medium text-center text-secondary mb-30 lg:mt-30 md:mt-15 mt-12">
         <button
           className={`mr-4 text-lg font-bold ${
             sortingOption === "best"

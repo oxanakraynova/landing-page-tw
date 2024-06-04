@@ -60,7 +60,7 @@ function ProductCardList({ sortingOption }: ProductCardListProps) {
         {sortedProducts.map((product) => (
           <div
             key={product.id}
-            className="w-full px-2 sm:w-1/2 sm:px-3 md:w-1/3 md:px-4 lg:w-1/3 lg:px-5"
+            className="w-full px-2 sm:w-1/2 sm:px-3 md:w-1/3 md:px-4 lg:w-1/3 lg:px-5 lg:pb-8 md:pb-7 gap-6 pt-16"
           >
             <ProductCard product={product} />
           </div>
