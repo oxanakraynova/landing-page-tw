@@ -1,8 +1,46 @@
-# React + Vite
+# Landing Page Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Implementing a landing page using ReactJS for the frontend, based on an exercise from: https://www.figma.com/design/pFtdMqmlsPdRNMWl5k01qa/Ecomail-test-(Oxana-Gre%C5%A1likov%C3%A1)?node-id=0-1&t=1Zny3icWI2QHTvsb-1
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vite
+- ReactJS
+- TypeScript
+- Tailwind CSS and Flowbite for styling
+- Hooks for state management
+- Axios for HTTP requests
+
+## Setup
+
+1. Download or clone the repository
+
+```
+
+https://github.com/oxanakraynova/landing-page-tw.git
+
+```
+
+2. Install NPM packages
+
+```
+
+npm install
+
+```
+
+3. Run the app in development mode. Open http://localhost:5173 to view it in the browser.
+
+```
+
+npm run dev
+
+```
+
+## Status
+
+Unfortunately, the GET `fakeStoreApi` endpoint doesn't have pagination right now, and I can't do part of the exercise to load more products.
+
+```
+
+```
