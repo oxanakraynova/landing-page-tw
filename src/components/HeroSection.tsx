@@ -10,7 +10,7 @@ function HeroSection() {
         <h1 className="max-w-2xl font-bold text-3xl text-secondary md:text-4xl lg:text-5xl">
           Lorem ipsum
         </h1>
-        <h3 className="max-w-2xl hidden lg:block text-lg mt-10 text-secondary font-medium tracking-tight leading-none md:text-xl xl:text-2xl">
+        <h3 className="max-w-lg hidden lg:block text-lg mt-10 text-secondary font-medium tracking-tight leading-none md:text-xl xl:text-2xl">
           Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod
           tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi.
