@@ -20,15 +20,19 @@ function ProductCard({ product }: ProductCardProps) {
     }
   };
   return (
-    <div className="max-w-sm h-full bg-custom-gradient rounded-lg shadow">
+    <div className="w-full h-full bg-custom-gradient rounded-lg shadow overflow-hidden text-overflow-elepsis">
       <div className="relative">
-        <img className="rounded-t-lg" src={imageSrc} alt="Product image" />
+        <img
+          className="rounded-t-lg object-cover h-52 w-full"
+          src={imageSrc}
+          alt="Product image"
+        />
         <div className="absolute top-8 right-8 text-white">
           <span className="font-bold">{product.rating.rate}/5</span>
         </div>
       </div>
       <div className="p-8 flex flex-col items-start">
-        <h5 className="pb-8 text-left text-3xl font-bold tracking-tight text-secondary ">
+        <h5 className="pb-8 text-left text-3xl font-bold tracking-tight text-secondary">
           {truncateString(product.title, 60)}
         </h5>
         <p className="mb-12 text-left text-base font-medium text-secondary">

@@ -17,7 +17,7 @@ function HeroSection() {
         </h3>
       </div>
       <div className="md:flex">
-        <div className="md:shrink-0 md:place-self-center">
+        <div className="md:shrink-0 md:place-self-center h-80 w-[26.375rem]">
           <img src={heroImage} alt="shop image" />
         </div>
       </div>

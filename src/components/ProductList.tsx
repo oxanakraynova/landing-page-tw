@@ -55,19 +55,16 @@ function ProductCardList({ sortingOption }: ProductCardListProps) {
   });
 
   return (
-    <>
-      <div className="flex flex-wrap -mx-2 sm:-mx-3 md:-mx-4 lg:-mx-5">
+    <div className="container">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 lg:gap-8">
         {sortedProducts.map((product) => (
-          <div
-            key={product.id}
-            className="w-full px-2 sm:w-1/2 sm:px-3 md:w-1/3 md:px-4 lg:w-1/3 lg:px-5 lg:pb-8 md:pb-7 gap-6 pt-16"
-          >
+          <div key={product.id} className="w-full">
             <ProductCard product={product} />
           </div>
         ))}
       </div>
       <Footer onClick={handleLoadMore} />
-    </>
+    </div>
   );
 }
 
