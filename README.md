@@ -40,7 +40,3 @@ npm run dev
 ## Status
 
 Unfortunately, the GET `fakeStoreApi` endpoint doesn't have pagination right now, and I can't do part of the exercise to load more products.
-
-```
-
-```
