@@ -71,7 +71,7 @@ button:focus-visible {
   }
 }
 
-/* html {
+html {
   height: 38rem;
   background-repeat: no-repeat;
   background-image: linear-gradient(
@@ -79,4 +79,4 @@ button:focus-visible {
     #fee694 0%,
     rgba(254, 230, 148, 0) 100%
   );
-} */
+}
