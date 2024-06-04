@@ -13,8 +13,8 @@ function CustomTab({ onChange, sortingOption }: CustomTabProps) {
         <button
           className={`mr-4 text-lg font-bold ${
             sortingOption === "best"
-              ? "bg-secondary text-white border-secondary"
-              : "text-secondary bg-transparent"
+              ? "bg-primary text-white border-primary"
+              : "text-primary bg-transparent"
           }`}
           onClick={(event) => handleChange(event, "best")}
           role="tab"
@@ -25,8 +25,8 @@ function CustomTab({ onChange, sortingOption }: CustomTabProps) {
         <button
           className={`text-lg font-bold ${
             sortingOption === "worst"
-              ? "bg-secondary text-white border-secondary "
-              : "text-secondary bg-transparent"
+              ? "bg-primary text-white border-primary"
+              : "text-primary bg-transparent"
           }`}
           onClick={(event) => handleChange(event, "worst")}
           role="tab"
