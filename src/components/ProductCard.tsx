@@ -33,10 +33,10 @@ function ProductCard({ product }: ProductCardProps) {
       </div>
       <div className="p-8 flex flex-col items-start">
         <h5 className="pb-8 text-left text-3xl font-bold tracking-tight text-secondary">
-          {truncateString(product.title, 60)}
+          {truncateString(product.title, 17)}
         </h5>
         <p className="mb-12 text-left text-base font-medium text-secondary">
-          {truncateString(product.description, 142)}
+          {truncateString(product.description, 130)}
         </p>
         <button
           className="inline-flex items-center text-sm font-medium text-center text-white bg-success rounded-lg hover:bg-lime-600 focus:ring-4 focus:outline-none"

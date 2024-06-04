@@ -4,9 +4,9 @@ interface ButtonProps {
 
 function Footer({ onClick }: ButtonProps) {
   return (
-    <div className="p-8 flex justify-center">
+    <div className="pt-[3.75rem] lg:pt-[7.5rem] flex justify-center">
       <button
-        className="bg-info mt-30 text-primary rounded-lg px-6 py-3 shadow-lg hover:bg-info focus:outline-none focus:ring focus:ring-info focus:ring-opacity-50 font-semibold"
+        className="bg-info mt-30 text-secondary rounded-lg px-6 py-3 shadow-lg hover:bg-green-400 focus:outline-none focus:ring focus:ring-green-400 focus:ring-opacity-50 font-semibold"
         onClick={onClick}
       >
         Načíst další
